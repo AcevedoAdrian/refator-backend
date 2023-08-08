@@ -1,0 +1,39 @@
+{
+  "name": "project-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "css": "postcss src/public/css/tailwind.css -o src/public/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "cookie-parser": "1.4.6",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "express-handlebars": "7.0.7",
+    "mongoose": "7.4.1",
+    "mongoose-paginate-v2": "^1.7.31",
+    "passport": "0.6.0",
+    "passport-github2": "0.1.12",
+    "passport-jwt": "4.0.1",
+    "passport-local": "1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "nodemon": "2.0.22",
+    "postcss": "8.4.24",
+    "postcss-cli": "10.1.0",
+    "semistandard": "17.0.0",
+    "tailwindcss": "3.3.2"
+  },
+  "eslintConfig": {
+    "extends": "semistandard"
+  }
+}
